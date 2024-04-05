@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&family=Molle&display=swap');
+
+* {
+	box-sizing: border-box;
+	padding: 0px;
+	margin: 0px;
+}
+
+body {
+	background: linear-gradient(pink, white);
+}
+
+h1 {
+	font-family: "Molle", cursive;
+	text-align: center;
+	margin: 1vw;
+	font-size: 8vw;
+}
+
+img {
+	width: 27vw;
+}
+
+.flex {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+#content {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 4vw;
+	gap: 5vw;
+	justify-content: space-evenly;
+}
+
+h2, h3 {
+	font-size: 2.5vw;
+	margin: 0.5vw;
+}
+
+.createContent li {
+	margin-left: 3vw;
+	font-size: 2vw;
+	font-family: "Baloo 2", sans-serif;
+}
