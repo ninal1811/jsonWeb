@@ -63,6 +63,7 @@ function createElementProper(incomingJSON) {
 		let createSong = document.createElement("li");
 		createSong.innerText = song;
 		createSongList.appendChild(createSong);
+		createSongList.classList.add("animate__animated", "animate__tada");
 	};
 
 	content.appendChild(createContent);
